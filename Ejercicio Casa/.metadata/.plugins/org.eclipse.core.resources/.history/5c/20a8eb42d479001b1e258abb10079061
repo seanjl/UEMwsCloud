@@ -1,0 +1,11 @@
+package entidades;
+
+public class Direccion {
+
+	private String nombreVia;
+	private String tipoVia;
+	private int numero;
+	private String cp;
+	
+	
+}

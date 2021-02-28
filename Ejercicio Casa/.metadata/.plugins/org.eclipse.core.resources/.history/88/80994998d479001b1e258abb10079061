@@ -1,0 +1,29 @@
+package entidades;
+
+public class Habitacion {
+	
+	private int area;
+	private String tipoHabitacion;
+	
+	public int getArea() {
+		return area;
+	}
+	public void setArea(int area) {
+		this.area = area;
+	}
+	public String getTipoHabitacion() {
+		return tipoHabitacion;
+	}
+	public void setTipoHabitacion(String tipoHabitacion) {
+		this.tipoHabitacion = tipoHabitacion;
+	}
+	
+	@Override
+	public String toString() {
+		return "Habitacion [area=" + area + ", tipoHabitacion=" + tipoHabitacion + "]";
+	}
+	
+	
+	
+
+}

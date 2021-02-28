@@ -1,0 +1,8 @@
+package entidades;
+
+public class Habitacion {
+	
+	private int area;
+	private String tipoHabitacion;
+
+}
